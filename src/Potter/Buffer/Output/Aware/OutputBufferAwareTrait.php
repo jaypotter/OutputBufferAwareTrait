@@ -18,5 +18,10 @@ trait OutputBufferAwareTrait
         return $this->getContainer()->has('output_buffer');
     }
     
+    final public function startOutputBuffer(): void
+    {
+        $this->getOutputBuffer()->start();
+    }
+    
     abstract public function getContainer(): ContainerInterface;
 }
