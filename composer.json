@@ -5,6 +5,15 @@
     "require": {
         "php": "^8.3"
     },
+    "suggest": {
+        "potter/output-buffer-traits": "dev-main",
+        "potter/output-buffer": "dev-main",
+        "potter/buffer": "dev-main",
+        "potter/aware-traits": "dev-main",
+        "potter/aware": "dev-main",
+        "potter/traits": "dev-main",
+        "potter/framework": "dev-main"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
