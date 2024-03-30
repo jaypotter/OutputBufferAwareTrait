@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "php": "^8.3",
-        "potter/output-buffer-interface": "dev-main"
+        "potter/output-buffer-interface": "dev-main",
+        "psr/container": "^2.0@dev"
     },
     "suggest": {
         "potter/output-buffer-traits": "dev-main",
